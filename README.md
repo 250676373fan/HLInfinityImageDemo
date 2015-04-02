@@ -6,7 +6,7 @@ example:
   NSArray *imgArray = @[
                         @"1.png",
                         [UIImage imageNamed:"2.png"],
-                        [NSURL URLWithString:@""],
+                        [NSURL URLWithString:@""]
                         ];
                         
     HLInfinityImageView * infinityView = [HLInfinityImageView infinityScrollViewWithBuilder:^(HLInfinityImageViewBuilder *builder) {
